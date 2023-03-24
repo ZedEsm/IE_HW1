@@ -16,4 +16,436 @@ body {
   background-color: #E5E5E5;
 }
 
+.margin-container {
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.row-direction {
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 30rem;
+  height: 130rem;
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.introductionDiv {
+  padding-left: 3.3rem;
+  position: relative;
+}
+
+.flex-wrp {
+  flex-wrap: wrap;
+}
+
+.p-img {
+  position: relative;
+}
+
+.avatar {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  margin-top: 4rem;
+}
+
+.online-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #7eb942;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  margin-top: 3rem;
+}
+
+.developer {
+  margin-top: 1.5rem;
+  color: gray;
+}
+
+.socialIcons, .icon {
+  margin-top: 2.2rem;
+}
+
+.icon {
+  background-color: rgba(255, 180, 0, 0.95);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.hr-tag {
+  margin-top: 1.6rem;
+  border: 1.5px solid #F0F0F6;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.margin-t-4 {
+  margin-top: 1.6rem;
+}
+
+.gap-1 {
+  gap: 0.9rem;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.background-orange {
+  background-color: rgba(255, 180, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-4 {
+  padding: 0.44rem;
+}
+
+.socialIcon, .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  background-color: #E5E5E5;
+}
+
+.sidebar {
+  width: 30rem;
+  height: 130rem;
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+.avatar {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  margin-top: 4rem;
+}
+
+.name {
+  margin-top: 3rem;
+}
+
+.developer {
+  margin-top: 1.5rem;
+  color: gray;
+}
+
+.socialIcons, .icon {
+  margin-top: 2.2rem;
+}
+
+.socialIcon, .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.instagramIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: rgba(255, 180, 0, 0.95);
+  border-radius: 50%;
+}
+
+.introductionDiv {
+  padding-left: 3.3rem;
+  position: relative;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.gap-15 {
+  gap: 1.5rem;
+}
+
+.gap-z {
+  gap: 2.5rem;
+}
+
+.icon {
+  background-color: rgba(255, 180, 0, 0.95);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.hr-tag {
+  margin-top: 1.6rem;
+  border: 1.5px solid #F0F0F6;
+}
+
+.onlineIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #7eb942;
+  border-radius: 50%;
+  position: absolute;
+  top: 78.3%;
+  left: 52.2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  background-color: rgba(255, 180, 0, 0.95);
+  border: none;
+  color: #fafafa;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1rem 2.4rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: rgb(78, 43, 233);
+  border: 0.1rem solid rgb(78, 43, 233);
+}
+
+.btn-link {
+  background-color: transparent;
+  border: transparent;
+  color: #212121;
+}
+
+.btn-lg {
+  padding: 1.8rem 3.2rem;
+  font-size: 1.8rem;
+}
+
+.btn-sm {
+  padding: 0.4rem 1.2rem;
+}
+
+.column-direction {
+  flex-direction: column;
+}
+
+.row-direction {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 0.4rem;
+}
+
+.gap-1 {
+  gap: 0.9rem;
+}
+
+.gap-18 {
+  gap: 1.8rem;
+}
+
+.margin-t-4 {
+  margin-top: 1.6rem;
+}
+
+.background-orange {
+  background-color: rgba(255, 180, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-4 {
+  padding: 0.44rem;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.color-lima {
+  color: #7eb942;
+}
+
+.color-gray {
+  color: #E5E5E5;
+}
+
+.color-gray-second {
+  color: #767676;
+}
+
+.color-black {
+  color: #212121;
+}
+
+.styl {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.age-styl {
+  width: 19px;
+  height: 24px;
+}
+
+.residence-styl {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.background-orange1 {
+  background-color: rgba(255, 180, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89px;
+  height: 24px;
+}
+
+.bd-styl {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  float: left;
+}
+
+.h4 {
+  margin-top: 1.6rem;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  width: 95px;
+  height: 22px;
+  line-height: 123.6%;
+}
+
+.style {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.hr-tags {
+  margin-top: 1.3rem;
+  border: 1.5px solid #F0F0F6;
+}
+
+.h4-2 {
+  margin-top: 1.9rem;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+}
+
+.double-square {
+  filter: invert(63%) sepia(92%) saturate(951%) hue-rotate(359deg) brightness(102%);
+}
+
+.dright {
+  align-items: center;
+  background-color: crimson;
+  margin-top: 30rem;
+  justify-content: center;
+}
+
+.section-two {
+  margin: 0 3rem 3rem 3rem;
+  width: 100%;
+  height: 80rem;
+}
+
+.flex-wrp {
+  flex-wrap: wrap;
+}
+
+.align {
+  align-items: center;
+}
+
+.download-btn {
+  width: 100%;
+  margin-top: 3rem;
+  height: 5rem;
+}
+
+.mard {
+  margin-top: 6rem;
+}
+
 /*# sourceMappingURL=index.css.map */
