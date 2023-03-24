@@ -19,19 +19,7 @@ body {
 }
 .margin-container{
   display: flex;
-  //justify-content: center;
-}
-.d-flex {
-  display: flex;
-}
-.row-direction{
-  flex-direction: row;
-}
-.sidebar {
-  width: 30rem;
-  height: 130rem;
-  padding: 1rem;
-  background-color: $white;
+  justify-content: center;
 }
 .content-center {
   justify-content: center;
@@ -40,21 +28,15 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
-.introductionDiv {
-  padding-left: 3.3rem;
-  position: relative;
-}
 .flex-wrp {
   flex-wrap: wrap;
 }
 .p-img{
+  display: flex;
     position: relative;
 }
-.avatar {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 50%;
-  margin-top: 4rem;
+.p-relative{
+  position: relative;
 }
 .online-icon {
   width: 1.5rem;
@@ -66,13 +48,6 @@ body {
   left: 65%;
   display: flex;
   flex-direction: row;
-}
-.name {
-  margin-top: 3rem;
-}
-.developer {
-  margin-top: 1.5rem;
-  color: gray;
 }
 .socialIcons {
   margin-top: 2.2rem;
@@ -86,21 +61,19 @@ body {
   align-items: center;
   border-radius: 50%;
 }
-.hr-tag {
-  margin-top: 1.6rem;
-  border: 1.5px solid $light-gray;
-}
-.flex-column {
-  flex-direction: column;
-}
 .margin-t-4 {
   margin-top: 1.6rem;
 }
 .gap-1 {
   gap: .9rem
 }
-.content-between {
+.gap-40 {
+  gap: 5rem
+}
+.prof-img{
+  display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 .background-orange {
   background-color: $orange;
@@ -143,6 +116,7 @@ body {
   height: 130rem;
   padding: 1rem;
   background-color: $white;
+  margin-top: 3rem;
 }
 
 .avatar {
@@ -150,15 +124,18 @@ body {
   max-height: 100%;
   border-radius: 50%;
   margin-top: 4rem;
+  margin-left: 2rem;
 }
 
 .name {
   margin-top: 3rem;
+  padding-right: 5.5rem;
 }
 
 .developer {
   margin-top: 1.5rem;
   color: gray;
+  padding-right: 5.5rem;
 }
 
 .socialIcons {
@@ -230,10 +207,9 @@ body {
   background-color: $lima;
   border-radius: 50%;
   position: absolute;
-  top: 78.3%;
-  left: 52.2%;
+  top: 82%;
+  left: 60.5%;
   display: flex;
-  flex-direction: row;
 }
 
 .btn {
@@ -247,7 +223,16 @@ body {
   cursor: pointer;
   transition: all .3s ease;
 }
-
+.part-b {
+  background-color: $gray;
+  width: 102rem;
+  padding-right: 2rem;
+  padding-left: 3rem;
+  margin-top: 3rem;
+}
+.background-white{
+  background: $white;
+}
 .btn-outline {
   background-color: transparent;
   color: $primary;
@@ -279,11 +264,6 @@ body {
 .items-center {
   align-items: center;
 }
-
-.content-between {
-  justify-content: space-between;
-}
-
 .gap {
   gap: .4rem
 }
@@ -417,6 +397,32 @@ body {
   width: 100%;
   height: 80rem;
 }
+.color-orange {
+  color: orange;
+}
+
+.image-content {
+  padding: 0 5.7rem;
+}
+
+.name-content {
+  width: 500px;
+  font-weight: bold;
+  font-size:44px;
+  margin-top: 10rem;
+}
+
+.description-content {
+  font-size: 16px;
+  width: 424px;
+}
+
+.hire-btn {
+  width: 16rem;
+  color: black;
+  border-radius: .5rem;
+}
+
 
 .flex-wrp {
   flex-wrap: wrap;
@@ -432,4 +438,42 @@ body {
 }
 .mard{
   margin-top: 6rem;
+}
+.yellow-square{
+  position: absolute;
+  top: 7rem;
+  right: 8rem;
+}
+.green-circle{
+  position: absolute;
+  top:4rem;
+  right:48.75rem;
+}
+.triangle-red{
+  position: absolute;
+  top:48rem;
+  right:3rem;
+}
+.yellow-circle{
+  position: absolute;
+  top:43rem;
+  right:42rem;
+}
+.blue-rectangle{
+  position: absolute;
+  top:37rem;
+  right: 59.8rem;
+}
+.green-circle2{
+  position: absolute;
+  top:48rem;
+  right: 86rem;
+}
+.yellow-circle2{
+  position: absolute;
+  top:4rem;
+  right: 92rem;
+}
+.space-evenly{
+  justify-content: space-evenly;
 }
