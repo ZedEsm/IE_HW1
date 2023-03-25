@@ -539,7 +539,7 @@ body {
   text-transform: uppercase;
 }
 
-.text-capitalize {
+.text-capitalize, .education-certificate, .education-certificates {
   text-transform: capitalize;
 }
 
@@ -591,6 +591,86 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 123.6%;
+}
+
+.education-section {
+  margin-top: 5rem;
+  padding: 3.7rem;
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  flex-direction: column;
+}
+
+.education-location, .education-locations {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 41rem;
+}
+
+.education-date {
+  background-color: #FFB400;
+  padding: 0.3rem;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100.9%;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-certificate, .education-certificates {
+  width: 71.1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.hr-style {
+  border: 1px #f0f0f6 solid;
+  margin-bottom: 1rem;
+}
+
+.h4-style {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: #2B2B2B;
+}
+
+.student-paragraph {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.certificate-paragraph {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+}
+
+.education-locations {
+  margin-top: 2rem;
+}
+
+.education-certificates {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 /*# sourceMappingURL=index.css.map */
