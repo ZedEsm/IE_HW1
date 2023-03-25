@@ -16,4 +16,688 @@ body {
   background-color: #E5E5E5;
 }
 
+.margin-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex-wrp {
+  flex-wrap: wrap;
+}
+
+.p-img {
+  display: flex;
+  position: relative;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.online-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #7eb942;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  display: flex;
+  flex-direction: row;
+}
+
+.socialIcons, .icon {
+  margin-top: 2.2rem;
+}
+
+.icon {
+  background-color: rgba(255, 180, 0, 0.95);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.margin-t-4 {
+  margin-top: 1.6rem;
+}
+
+.gap-1 {
+  gap: 0.9rem;
+}
+
+.gap-40 {
+  gap: 5rem;
+}
+
+.prof-img {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.background-orange {
+  background-color: rgba(255, 180, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-4 {
+  padding: 0.44rem;
+}
+
+.socialIcon, .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  background-color: #E5E5E5;
+}
+
+.sidebar {
+  width: 30rem;
+  height: 130rem;
+  padding: 1rem;
+  background-color: #fafafa;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.name {
+  margin-top: 3rem;
+  padding-right: 5.5rem;
+}
+
+.developer {
+  margin-top: 1.5rem;
+  color: gray;
+  padding-right: 5.5rem;
+}
+
+.socialIcons, .icon {
+  margin-top: 2.2rem;
+}
+
+.socialIcon, .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.instagramIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: rgba(255, 180, 0, 0.95);
+  border-radius: 50%;
+}
+
+.introductionDiv {
+  padding-left: 3.3rem;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.gap-15 {
+  gap: 1.5rem;
+}
+
+.gap-z {
+  gap: 2.5rem;
+}
+
+.icon {
+  background-color: rgba(255, 180, 0, 0.95);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.hr-tag {
+  margin-top: 1.6rem;
+  border: 1.5px solid #F0F0F6;
+}
+
+.onlineIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #7eb942;
+  border-radius: 50%;
+  position: absolute;
+  top: 82%;
+  left: 60.5%;
+  display: flex;
+}
+
+.btn {
+  background-color: rgba(255, 180, 0, 0.95);
+  border: none;
+  color: #fafafa;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1rem 2.4rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.part-b {
+  background-color: #E5E5E5;
+  width: 102rem;
+  padding-right: 2rem;
+  padding-left: 3rem;
+  margin-top: 3rem;
+}
+
+.background-white {
+  background: #fafafa;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: rgb(78, 43, 233);
+  border: 0.1rem solid rgb(78, 43, 233);
+}
+
+.btn-link {
+  background-color: transparent;
+  border: transparent;
+  color: #212121;
+}
+
+.btn-lg {
+  padding: 1.8rem 3.2rem;
+  font-size: 1.8rem;
+}
+
+.btn-sm {
+  padding: 0.4rem 1.2rem;
+}
+
+.column-direction {
+  flex-direction: column;
+}
+
+.row-direction {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap {
+  gap: 0.4rem;
+}
+
+.gap-1 {
+  gap: 0.9rem;
+}
+
+.gap-18 {
+  gap: 1.8rem;
+}
+
+.margin-t-4 {
+  margin-top: 1.6rem;
+}
+
+.background-orange {
+  background-color: rgba(255, 180, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-4 {
+  padding: 0.44rem;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.color-lima {
+  color: #7eb942;
+}
+
+.color-gray {
+  color: #E5E5E5;
+}
+
+.color-gray-second {
+  color: #767676;
+}
+
+.color-black {
+  color: #212121;
+}
+
+.styl {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.age-styl {
+  width: 19px;
+  height: 24px;
+}
+
+.residence-styl {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.background-orange1 {
+  background-color: rgba(255, 180, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89px;
+  height: 24px;
+}
+
+.bd-styl {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  float: left;
+}
+
+.h4 {
+  margin-top: 1.6rem;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  width: 95px;
+  height: 22px;
+  line-height: 123.6%;
+}
+
+.style {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.hr-tags {
+  margin-top: 1.3rem;
+  border: 1.5px solid #F0F0F6;
+}
+
+.h4-2 {
+  margin-top: 1.9rem;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+}
+
+.double-square {
+  filter: invert(63%) sepia(92%) saturate(951%) hue-rotate(359deg) brightness(102%);
+}
+
+.dright {
+  align-items: center;
+  background-color: crimson;
+  margin-top: 30rem;
+  justify-content: center;
+}
+
+.section-two {
+  margin: 0 3rem 3rem 3rem;
+  width: 100%;
+  height: 80rem;
+}
+
+.color-orange {
+  color: orange;
+}
+
+.image-content {
+  padding: 0 5.7rem;
+}
+
+.name-content {
+  width: 500px;
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 10rem;
+}
+
+.description-content {
+  font-size: 16px;
+  width: 424px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #767676;
+}
+
+.hire-btn {
+  width: 16rem;
+  color: black;
+  border-radius: 0.5rem;
+}
+
+.flex-wrp {
+  flex-wrap: wrap;
+}
+
+.align {
+  align-items: center;
+}
+
+.download-btn {
+  width: 100%;
+  margin-top: 3rem;
+  height: 5rem;
+}
+
+.mard {
+  margin-top: 6rem;
+}
+
+.yellow-square {
+  position: absolute;
+  top: 7rem;
+  right: 8rem;
+}
+
+.green-circle {
+  position: absolute;
+  top: 4rem;
+  right: 48.75rem;
+}
+
+.triangle-red {
+  position: absolute;
+  top: 48rem;
+  right: 3rem;
+}
+
+.yellow-circle {
+  position: absolute;
+  top: 43rem;
+  right: 42rem;
+}
+
+.blue-rectangle {
+  position: absolute;
+  top: 37rem;
+  right: 59.8rem;
+}
+
+.green-circle2 {
+  position: absolute;
+  top: 48rem;
+  right: 86rem;
+}
+
+.yellow-circle2 {
+  position: absolute;
+  top: 4rem;
+  right: 92rem;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.service {
+  margin-top: 7.3rem;
+  display: flex;
+  width: 50rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  margin-left: 21rem;
+}
+
+.sub-service {
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap: 2rem;
+  display: flex;
+}
+
+.service-icon-div {
+  width: 31rem;
+  height: 22.5rem;
+  background-color: white;
+  gap: 2rem;
+  padding: 4rem;
+  align-items: center;
+}
+
+.service-images {
+  width: 6rem;
+  filter: invert(63%) sepia(92%) saturate(951%) hue-rotate(359deg) brightness(102%);
+}
+
+.h3-text {
+  text-transform: uppercase;
+}
+
+.text-capitalize, .education-certificate, .education-certificates {
+  text-transform: capitalize;
+}
+
+.game {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+}
+
+.serv {
+  width: 438px;
+  height: 68px;
+  left: 601px;
+  top: 670px;
+}
+
+.orange-back {
+  color: #FFB400;
+}
+
+.web {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.order-now {
+  ont-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFB400;
+  opacity: 1.5;
+}
+
+.h2 {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
+}
+
+.education-section {
+  margin-top: 5rem;
+  padding: 3.7rem;
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  flex-direction: column;
+}
+
+.education-location, .education-locations {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 41rem;
+}
+
+.education-date {
+  background-color: #FFB400;
+  padding: 0.3rem;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100.9%;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-certificate, .education-certificates {
+  width: 71.1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.hr-style {
+  border: 1px #f0f0f6 solid;
+  margin-bottom: 1rem;
+}
+
+.h4-style {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: #2B2B2B;
+}
+
+.student-paragraph {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.certificate-paragraph {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+}
+
+.education-locations {
+  margin-top: 2rem;
+}
+
+.education-certificates {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .image-content {
+    flex-direction: column-reverse;
+  }
+  .main-page {
+    flex-direction: column;
+  }
+  .image-banner {
+    width: 30rem;
+  }
+  .side-rel {
+    margin-left: 3rem;
+  }
+  .flex-wrap-rel {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
