@@ -1,4 +1,4 @@
-               # SBU web application homework
+# SBU web application homework
 in spring 02 ,we designed a site for web application course
 by _Dr Mohammadreza Razian_ in _Shahid Beheshti University_
 ## how to use
