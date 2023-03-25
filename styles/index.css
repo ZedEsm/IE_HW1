@@ -19,6 +19,7 @@ body {
 .margin-container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .content-center {
@@ -127,6 +128,8 @@ body {
   background-color: #fafafa;
   margin-top: 3rem;
   margin-left: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .avatar {
@@ -167,6 +170,9 @@ body {
 .introductionDiv {
   padding-left: 3.3rem;
   position: relative;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -520,6 +526,7 @@ body {
   flex-wrap: wrap;
   margin-top: 5rem;
   gap: 2rem;
+  display: flex;
 }
 
 .service-icon-div {
@@ -672,6 +679,25 @@ body {
 .education-certificates {
   margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .image-content {
+    flex-direction: column-reverse;
+  }
+  .main-page {
+    flex-direction: column;
+  }
+  .image-banner {
+    width: 30rem;
+  }
+  .side-rel {
+    margin-left: 3rem;
+  }
+  .flex-wrap-rel {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

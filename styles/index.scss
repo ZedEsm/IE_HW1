@@ -17,27 +17,35 @@ body {
   font-family: 'Nunito', sans-serif;
   background-color: $gray;
 }
-.margin-container{
+
+.margin-container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
+
 .content-center {
   justify-content: center;
 }
+
 .container {
   max-width: 100%;
   max-height: 100%;
 }
+
 .flex-wrp {
   flex-wrap: wrap;
 }
-.p-img{
+
+.p-img {
   display: flex;
   position: relative;
 }
-.p-relative{
+
+.p-relative {
   position: relative;
 }
+
 .online-icon {
   width: 1.5rem;
   height: 1.5rem;
@@ -49,9 +57,11 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .socialIcons {
   margin-top: 2.2rem;
 }
+
 .icon {
   @extend .socialIcons;
   background-color: $orange;
@@ -61,29 +71,36 @@ body {
   align-items: center;
   border-radius: 50%;
 }
+
 .margin-t-4 {
   margin-top: 1.6rem;
 }
+
 .gap-1 {
   gap: .9rem
 }
+
 .gap-40 {
   gap: 5rem
 }
-.prof-img{
+
+.prof-img {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
+
 .background-orange {
   background-color: $orange;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .padding-4 {
   padding: .44rem;
 }
+
 .socialIcon {
   width: 1.5rem;
   height: 1.5rem;
@@ -118,6 +135,8 @@ body {
   background-color: $white;
   margin-top: 3rem;
   margin-left: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .avatar {
@@ -160,7 +179,9 @@ body {
 .introductionDiv {
   padding-left: 3.3rem;
   position: relative;
-
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -183,6 +204,7 @@ body {
 .gap-15 {
   gap: 1.5rem
 }
+
 .gap-z {
   gap: 2.5rem
 }
@@ -224,6 +246,7 @@ body {
   cursor: pointer;
   transition: all .3s ease;
 }
+
 .part-b {
   background-color: $gray;
   width: 102rem;
@@ -231,9 +254,11 @@ body {
   padding-left: 3rem;
   margin-top: 3rem;
 }
-.background-white{
+
+.background-white {
   background: $white;
 }
+
 .btn-outline {
   background-color: transparent;
   color: $primary;
@@ -258,13 +283,15 @@ body {
 .column-direction {
   flex-direction: column;
 }
-.row-direction{
+
+.row-direction {
   flex-direction: row;
 }
 
 .items-center {
   align-items: center;
 }
+
 .gap {
   gap: .4rem
 }
@@ -398,6 +425,7 @@ body {
   width: 100%;
   height: 80rem;
 }
+
 .color-orange {
   color: orange;
 }
@@ -409,7 +437,7 @@ body {
 .name-content {
   width: 500px;
   font-weight: bold;
-  font-size:44px;
+  font-size: 44px;
   margin-top: 10rem;
 }
 
@@ -437,68 +465,84 @@ body {
 .align {
   align-items: center;
 }
-.download-btn{
+
+.download-btn {
   width: 100%;
   margin-top: 3rem;
   height: 5rem;
 }
-.mard{
+
+.mard {
   margin-top: 6rem;
 }
-.yellow-square{
+
+.yellow-square {
   position: absolute;
   top: 7rem;
   right: 8rem;
 }
-.green-circle{
+
+.green-circle {
   position: absolute;
-  top:4rem;
-  right:48.75rem;
+  top: 4rem;
+  right: 48.75rem;
 }
-.triangle-red{
+
+.triangle-red {
   position: absolute;
-  top:48rem;
-  right:3rem;
+  top: 48rem;
+  right: 3rem;
 }
-.yellow-circle{
+
+.yellow-circle {
   position: absolute;
-  top:43rem;
-  right:42rem;
+  top: 43rem;
+  right: 42rem;
 }
-.blue-rectangle{
+
+.blue-rectangle {
   position: absolute;
-  top:37rem;
+  top: 37rem;
   right: 59.8rem;
 }
-.green-circle2{
+
+.green-circle2 {
   position: absolute;
-  top:48rem;
+  top: 48rem;
   right: 86rem;
 }
-.yellow-circle2{
+
+.yellow-circle2 {
   position: absolute;
-  top:4rem;
+  top: 4rem;
   right: 92rem;
 }
-.space-evenly{
+
+.space-evenly {
   justify-content: space-evenly;
 }
+
 //newCode
 
 .service {
   margin-top: 7.3rem;
-  display: flex;width: 50rem;
+  display: flex;
+  width: 50rem;
   justify-content: center;
   flex-direction: column;
-  gap: 1rem;align-items: center;
+  gap: 1rem;
+  align-items: center;
   text-align: center;
   margin-left: 21rem;
 }
-.sub-service{
+
+.sub-service {
   flex-wrap: wrap;
   margin-top: 5rem;
   gap: 2rem;
+  display: flex;
 }
+
 .service-icon-div {
   width: 31rem;
   height: 22.5rem;
@@ -507,17 +551,21 @@ body {
   padding: 4rem;
   align-items: center;
 }
-.service-images{
+
+.service-images {
   width: 6rem;
   filter: invert(63%) sepia(92%) saturate(951%) hue-rotate(359deg) brightness(102%)
 }
-.h3-text{
+
+.h3-text {
   text-transform: uppercase;
 }
-.text-capitalize{
+
+.text-capitalize {
   text-transform: capitalize;
 }
-.game{
+
+.game {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -525,26 +573,31 @@ body {
   line-height: 24px;
   color: $grey;
 }
-.serv{
+
+.serv {
   width: 438px;
   height: 68px;
   left: 601px;
   top: 670px;
 }
-.orange-back{
+
+.orange-back {
   color: $orange-back;
 }
-.web{
+
+.web {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 123.6%;
 }
-.text-align{
+
+.text-align {
   text-align: center;
 }
-.order-now{
+
+.order-now {
   ont-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -553,13 +606,15 @@ body {
   color: $orange-back;
   opacity: 1.5;
 }
-.h2{
+
+.h2 {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 123.6%;
 }
+
 .education-section {
   margin-top: 5rem;
   padding: 3.7rem;
@@ -568,13 +623,15 @@ body {
   background: $white;
   flex-direction: column;
 }
-.education-location{
+
+.education-location {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 41rem;
 }
-.education-date{
+
+.education-date {
   background-color: $orange-back;
   padding: .3rem;
   font-family: 'Inter', serif;
@@ -587,7 +644,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.education-certificate{
+
+.education-certificate {
   @extend .text-capitalize;
   width: 71.1rem;
   margin-bottom: 1rem;
@@ -595,11 +653,13 @@ body {
   flex-direction: column;
   gap: 2.3rem;
 }
-.hr-style{
+
+.hr-style {
   border: 1px #f0f0f6 solid;
   margin-bottom: 1rem;
 }
-.h4-style{
+
+.h4-style {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 500;
@@ -607,7 +667,8 @@ body {
   line-height: 123.6%;
   color: $blacks;
 }
-.student-paragraph{
+
+.student-paragraph {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -616,7 +677,8 @@ body {
   display: flex;
   gap: 1.8rem;
 }
-.certificate-paragraph{
+
+.certificate-paragraph {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -624,13 +686,36 @@ body {
   line-height: 24px;
   color: $second-gray;
 }
-.education-locations{
+
+.education-locations {
   @extend .education-location;
   margin-top: 2rem;
 }
-.education-certificates{
+
+.education-certificates {
   @extend .education-certificate;
   @extend .text-capitalize;
   margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .image-content {
+    flex-direction: column-reverse;
+  }
+  .main-page {
+    flex-direction: column;
+  }
+  .image-banner {
+    width: 30rem;
+  }
+  .side-rel{
+    margin-left: 3rem;
+  }
+  .flex-wrap-rel{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
 }
