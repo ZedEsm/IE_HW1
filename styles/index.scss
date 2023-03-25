@@ -415,6 +415,11 @@ body {
 .description-content {
   font-size: 16px;
   width: 424px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: $grey;
 }
 
 .hire-btn {
@@ -476,4 +481,81 @@ body {
 }
 .space-evenly{
   justify-content: space-evenly;
+}
+//newCode
+
+.service {
+  margin-top: 7.3rem;
+  display: flex;width: 50rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;align-items: center;
+  text-align: center;
+  margin-left: 21rem;
+}
+.sub-service{
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+.service-icon-div {
+  width: 31rem;
+  height: 22.5rem;
+  background-color: white;
+  gap: 2rem;
+  padding: 4rem;
+  align-items: center;
+}
+.service-images{
+  width: 6rem;
+  filter: invert(63%) sepia(92%) saturate(951%) hue-rotate(359deg) brightness(102%)
+}
+.h3-text{
+  text-transform: uppercase;
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+.game{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: $grey;
+}
+.serv{
+  width: 438px;
+  height: 68px;
+  left: 601px;
+  top: 670px;
+}
+.orange-back{
+  color: $orange-back;
+}
+.web{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+}
+.text-align{
+  text-align: center;
+}
+.order-now{
+  ont-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: $orange-back;
+  opacity: 1.5;
+}
+.h2{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
 }
