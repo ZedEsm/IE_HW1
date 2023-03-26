@@ -221,7 +221,7 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 82%;
-  left: 60.5%;
+  left: 58%;
   display: flex;
 }
 
@@ -461,7 +461,7 @@ body {
 }
 
 .mard {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .yellow-square {
